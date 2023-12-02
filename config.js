@@ -8,7 +8,7 @@ module.exports = {
   Discord: {
     // —— Things that are required for the whole project to work.
     token:
-      "MTE4MDUzNjM0MDcxNTE1NTU3Nw.Gs66qO.LpJh9ESsyMx5fA6XSwp5cFVrerD0awgYilhvfE", // —— Your bot's token.
+      "", // —— Your bot's token.
     botId: "1180536340715155577", // —— The bot's ID.
     guildId: "1180526114578374698", // —— The server ID on where the commands will be deployed.
     verifiedRole: "1180526114578374701", // —— Role that will be added to the user when they verify their account.
@@ -28,7 +28,7 @@ module.exports = {
   },
 
   reCAPTCHA: {
-    secretKey: "6LcUDCQpAAAAAB7TtecY3LnHbm1YICNEAyyEpwUL",
-    publicKey: "6LcUDCQpAAAAAOzNfIQWucEl770jxmQ09Uwi7DpV",
+    secretKey: "",
+    publicKey: "",
   },
 };
