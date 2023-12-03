@@ -7,8 +7,7 @@ module.exports = {
 
   Discord: {
     // —— Things that are required for the whole project to work.
-    token:
-      "", // —— Your bot's token.
+    token: process.env.TOKEN, // —— Your bot's token.
     botId: "1180536340715155577", // —— The bot's ID.
     guildId: "1180526114578374698", // —— The server ID on where the commands will be deployed.
     verifiedRole: "1180526114578374701", // —— Role that will be added to the user when they verify their account.
@@ -28,7 +27,7 @@ module.exports = {
   },
 
   reCAPTCHA: {
-    secretKey: "",
-    publicKey: "",
+    secretKey: process.env.SECRET_KEY,
+    publicKey: process.env.PUBLIC_KEY,
   },
 };
